@@ -1,0 +1,8 @@
+jobs:
+- job: Build
+  steps:
+  - script: npm install
+  - script: npm run build
+- job: Test
+  steps:
+  - script: npm test
